@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "yarn export && echo 'itkoh.com' >> docs/CNAME && touch docs/.nojekyll && git add ./docs && git commit -m \"chore(site): regen\" && git push origin main -f"
   },
   "dependencies": {
     "next": "10.0.8",
