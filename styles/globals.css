@@ -1,16 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: heebo, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.active > a {
+  @apply opacity-100;
+}
+
+.active > div {
+  @apply w-full;
+}
+
+@layer components {
+  .btn {
+    @apply border border-gray-100 p-1 px-2
+  }
+
+  .navbar-link {
+    @apply group-hover:text-white group-hover:-translate-y-2 group-hover:-translate-x-2 transform transition duration-200
+  }
+
+}
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-xl;
+  }
 }

@@ -10,8 +10,20 @@
     "deploy": "yarn export && echo 'itkoh.com' >> docs/CNAME && touch docs/.nojekyll && git add ./docs && git commit -m \"chore(site): regen\" && git push origin main -f"
   },
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.19",
+    "aos": "^2.3.4",
+    "framer-motion": "^4.1.2",
     "next": "10.0.8",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-spring": "^9.0.0",
+    "typed.js": "^2.0.12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "tailwindcss": "^2.0.4"
   }
 }
