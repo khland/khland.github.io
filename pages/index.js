@@ -1,12 +1,9 @@
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
-import Loading from '../comps/Loading'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
 import { FaPhoneAlt, FaEnvelope } from 'react-icons/fa'
-
-const LandingPage = dynamic(() => { return import('../comps/Home')  }, { ssr: false, loading: () => <Loading/> })
 
 export default function Home () {
 

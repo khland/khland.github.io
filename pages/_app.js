@@ -1,5 +1,4 @@
 import '../styles/globals.css'
-import Navbar from '../comps/Navbar'
 import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
