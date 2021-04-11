@@ -7,13 +7,14 @@ module.exports = {
     borderColor: theme => ({
       teal: colors.teal,
       gray: colors.trueGray,
-      white: colors.white
+      white: colors.white,
     }),
     colors: {
       gray: colors.trueGray,
       red: colors.red,
       teal: colors.teal,
-      white: colors.white
+      white: colors.white,
+      lime: colors.lime
     },
     extend: {
       keyframes: {

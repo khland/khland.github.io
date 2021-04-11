@@ -12,6 +12,7 @@
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.19",
     "aos": "^2.3.4",
+    "emailjs-com": "^2.6.4",
     "framer-motion": "^4.1.2",
     "next": "10.0.8",
     "react": "17.0.1",
@@ -19,6 +20,7 @@
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-spring": "^9.0.0",
+    "react-toast": "^1.0.1",
     "typed.js": "^2.0.12"
   },
   "devDependencies": {
