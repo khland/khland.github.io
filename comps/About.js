@@ -1,11 +1,10 @@
-import Image from 'next/image'
-
 const About = () => {
+
   return (
     <div className="w-full h-screen flex flex-col py-20 px-20">
       <div className="flex w-full justify-between">
         <div className="w-2/5 flex flex-col justify-start items-center h-screen">
-          <h1 className="text-center text-5xl">About me</h1>
+          <h1 className="text-center text-5xl mb-10">About me</h1>
           <div className="group cursor-pointer flex w-full relative p-4 overflow-hidden rounded-md">
             <div className="flex items-end group-hover:translate-y-0 w-full h-full -translate-y-full absolute inset-0  transform transition-all duration-500  z-40 bg-teal-900 bg-opacity-30 rounded-md">
               <div className="flex flex-col relative items-start justify-start px-4 text-white bg-teal-900 bg-opacity-50 p-4 rounded-tr-md">
@@ -23,8 +22,8 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <Image
-              src={'/samda-face.png'} width={400} height={400}/>
+            <img
+              src="/samda-face.png" width={400} height={400}/>
           </div>
         </div>
 

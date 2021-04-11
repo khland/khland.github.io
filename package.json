@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "export": "next build && next export -o docs",
     "start": "next start",
     "deploy": "yarn export && echo 'itkoh.com' >> docs/CNAME && touch docs/.nojekyll && git add ./docs && git commit -m \"chore(site): regen\" && git push origin main -f"
@@ -12,20 +12,19 @@
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.19",
     "aos": "^2.3.4",
+    "autoprefixer": "^10.2.5",
     "emailjs-com": "^2.6.4",
     "framer-motion": "^4.1.2",
     "next": "10.0.8",
+    "next-images": "^1.7.0",
+    "postcss": "^8.2.9",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-spring": "^9.0.0",
     "react-toast": "^1.0.1",
+    "tailwindcss": "^2.0.4",
     "typed.js": "^2.0.12"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.9",
-    "tailwindcss": "^2.0.4"
   }
 }

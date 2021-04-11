@@ -1,4 +1,3 @@
-import Image from 'next/image'
 
 const Backend = () => {
   return (
@@ -8,7 +7,7 @@ const Backend = () => {
         <div className="flex w-full">
           <div className="flex flex-col w-1/3 space-y-1">
             <div className="h-full w-full rounded-md border border-teal-800">
-              <Image className="rounded-md" src={"/sms-system.png"}
+              <img className="rounded-md" src={"/sms-system.png"}
                 layout="responsive"
                 width={700}
                 height={475} />

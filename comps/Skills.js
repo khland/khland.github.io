@@ -1,4 +1,3 @@
-import Image  from 'next/image'
 import { FaExclamation } from 'react-icons/fa'
 
 const Skills = ({skills = []}) => {
@@ -21,7 +20,7 @@ const Skills = ({skills = []}) => {
                     return <div key={idx} className={`shadow-lg relative cursor-pointer border-b-2 border-teal-500 ${lang.badges[0] ? 'mb-10' : 'mb-4'} flex items-end justify-between w-full h-10 bg-white`}>
                       {
                         lang.image && <span className="flex justify-start items-start h-8 w-1/4 relative">
-                          <Image style={{ objectFit: "contain", height: 20, maxHeight: 40 }} src={lang.image} layout="fill" objectFit="contain" />
+                          <img style={{ objectFit: "contain", height: 30, maxHeight: 40 }} src={lang.image} layout="fill" objectFit="contain" />
                         </span>
                       }
                       {
