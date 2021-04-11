@@ -7,12 +7,6 @@ const LandingPage = dynamic(() => { return import('../comps/Home')  }, { ssr: fa
 
 export default () => {
   return (
-    <>
-      <Head>
-          <title>Samda Muy | Full-Stack Developer</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
-      <Home/>
-    </>
+    <Home/>
   )
 }

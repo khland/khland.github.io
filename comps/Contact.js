@@ -29,7 +29,6 @@ const Contact = () => {
       error => {
         alert('An error occured, Plese try again', error.text)
       })
-    setToast(true)
     setUser({ name: '', email: '', subject: '', message: '' })
   }
 
