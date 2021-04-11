@@ -6,9 +6,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
     <Head>
-      <title>Samda Muy | Full-Stack Developer</title>
+      <title>KHLAND Co., Ltd | Reliable realestate company in Cambodia.</title>
       <link rel="icon" href="/favicon.ico" />
-      <meta property="og:type" content="article" />
+      {/* <meta property="og:type" content="article" />
       <meta property="og:url" content="https://itkoh.com" />
       <meta property="og:title" content="Samda Muy - Full Stack Web Developer" />
       <meta property="og:image" content="/skills_set2.png" />
@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
       <link rel="manifest" href="/manifest.json" />
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-      <meta name="theme-color" content="#ffffff" />
+      <meta name="theme-color" content="#ffffff" /> */}
     </Head>
     <div className="w-full">
       <Component {...pageProps} />

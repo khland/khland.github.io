@@ -7,7 +7,7 @@
     "build": "next build",
     "export": "next build && next export -o docs",
     "start": "next start",
-    "deploy": "yarn export && echo 'itkoh.com' >> docs/CNAME && touch docs/.nojekyll && git add ./docs && git commit -m \"chore(site): regen\" && git push origin main -f"
+    "deploy": "yarn export && echo 'khland.com.kh' >> docs/CNAME && touch docs/.nojekyll && git add ./docs && git commit -m \"chore(site): regen\" && git push origin main -f"
   },
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.19",
