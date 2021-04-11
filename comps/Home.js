@@ -174,8 +174,7 @@ const Home = () => {
         <meta property="og:description" content="I am a toiler software craftman with more than 4 years in this career as a Full-stack Web Developer." />
 
         <title>Samda Muy - Full Stack Web Developer</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"></link>
+        <link rel="icon" href="/logo.png" />
       </Head>
       {!hideContact && <div className="flex group ">
         <div className={`transition-all transform duration-1000 absolute bg-teal-900 z-10 rounded-md`}>
